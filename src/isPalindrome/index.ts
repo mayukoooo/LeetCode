@@ -11,4 +11,3 @@ const isPalindrome: IsPalindrome = (x) => {
   }
   return true;
 };
-console.log(isPalindrome(120));
