@@ -1,3 +1,4 @@
+// 問題文に不備あり
 import { PlusOne } from "..";
 
 const plusOne: PlusOne = (digits) => {
