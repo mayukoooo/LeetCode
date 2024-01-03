@@ -1,9 +1,9 @@
-type PlusOne = (digits: number[]) => number[];
+export type PlusOne = (digits: number[]) => number[];
 
 const plusOne: PlusOne = (digits) => {
   const lastNumber = digits.pop();
   if (lastNumber === undefined) return digits;
-  
+
   const added1ToLastNumber = String(lastNumber + 1)
     .split("")
     .map(Number);
