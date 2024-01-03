@@ -1,9 +1,9 @@
-type LengthOfLastWord = (input: string) => number;
+export type LengthOfLastWord = (input: string) => number;
 
 const lengthOfLastWord: LengthOfLastWord = (input) => {
   const trimmedInput = input.trim();
   const emptyIndex = trimmedInput.lastIndexOf(" ");
-  
+
   if (emptyIndex === -1) return trimmedInput.length;
 
   const lastString = trimmedInput.slice(emptyIndex + 1, trimmedInput.length);
