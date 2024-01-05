@@ -1,2 +1,1 @@
 - [LeetCodeで解いた問題達](https://leetcode.com/MayukoYamagishi/)
-- 目標：2024年内にEasy制覇><
