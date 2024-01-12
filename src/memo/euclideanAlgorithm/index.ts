@@ -1,4 +1,4 @@
-// ユーグリッドの互除法
+// ユーグリッドの互除法によって最大公約数を求める
 type EuclideanAlgorithm = (m: number, n: number) => number;
 
 const euclideanAlgorithm: EuclideanAlgorithm = (m, n) => {
