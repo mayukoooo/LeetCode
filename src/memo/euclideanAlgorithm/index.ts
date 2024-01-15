@@ -1,4 +1,6 @@
+// 再帰関数
 // ユーグリッドの互除法によって最大公約数を求める
+// 最大公約数の性質：　GCD(m, n) = GCD(n, r) ※mをnで割ったあまりをrとする
 type EuclideanAlgorithm = (m: number, n: number) => number;
 
 const euclideanAlgorithm: EuclideanAlgorithm = (m, n) => {
