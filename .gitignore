@@ -1,3 +1,4 @@
 node_modules
 dist
 src/easy/spiralOrder/index.ts
+src/test
