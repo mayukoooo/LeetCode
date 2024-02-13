@@ -1,18 +1,5 @@
 // https://leetcode.com/problems/same-tree/description/
 // algorithm: 二分木の深さ優先探索（DFS
-/**
- * Definition for a binary tree node.
- * class TreeNode {
- *     val: number
- *     left: TreeNode | null
- *     right: TreeNode | null
- *     constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
- *         this.val = (val===undefined ? 0 : val)
- *         this.left = (left===undefined ? null : left)
- *         this.right = (right===undefined ? null : right)
- *     }
- * }
- */
 type IsSameTree = (p: TreeNode | null, q: TreeNode | null) => boolean;
 
 const isSameTree: IsSameTree = (p, q) => {
